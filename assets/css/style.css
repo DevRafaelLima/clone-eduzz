@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 80px;
+}
+.menu {
+    margin: 40px 20px 0px 20px;
+    display: flex;
+    
+}
+.list_menu {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.list_menu ul{
+    list-style: none;
+    display: flex;
+}
+.list_menu ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+}
+.btn {
+    background-color: #ffb509;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/*topo*/
+.topo {
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.topo .title {
+    width: 700px;
+    height: 100px;
+    text-align: center;
+}
+.topo .title h1 {
+    font-size: 40px;
+    color: #333;
+}
+.topo .subtitle {
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    width: 700px;
+    font-size: 12px;
+    padding-top: 20px;
+    color: #333;
+}
+/*Vídeo*/
+.video {
+    display: flex;
+    justify-content: center;
+}
+.area1 {
+    margin-top: 30px;
+    padding: 50px;
+}
+.area1 .conteudo {
+    display: flex;
+}
+.area1 .conteudo .texto{
+    flex: 2;
+}
+.area1 .conteudo .texto h3 {
+    font-size: 40px;
+    color: #333;
+}
+.area1 .conteudo .texto p {
+    color: #333;
+    font-size: 30px;
+}
+.area1 .conteudo a{
+    text-decoration: none;
+    color: #ffb509;
+    font-size: 20px;
+}
+.area1 .conteudo .image {
+    flex: 1;
+}
+/*estilização area4*/
+.area4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.area4 .text {
+    width: 600px;
+    text-align: center;
+    color: #333;
+}
+.area4 .text h3 {
+    font-size: 40px;
+    margin: 0;
+}
+.area4 .imagem {
+    width: 1100px;
+    height: 650px;
+    border-radius: 15px;
+    background-image: url('../img/imagem4.png');
+    display: flex;
+    align-items: flex-end;
+}
+.area4 .imagem .title {
+    width: 500px;
+    height: 200px;
+    margin: 0px 0px 0px 30px;
+}
+.area4 .imagem .title h3 {
+    color: #fff;
+    font-size: 23px;
+    margin: 0px 0px 20px 0px;
+}
+.area4 .imagem .title a {
+    text-decoration: none;
+    color: #ffb509;
+    font-size: 20px;
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.colunas {
+    display: flex;
+    margin: 0px 40px 0px 40px;
+}
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.col p{
+    color: #333;
+    font-size: 20px;
+}
+.col h4 {
+    font-size: 25px;
+    margin: 5px 0px 25px 0px;
+}
+.col a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    margin: 5px;
+}
+.logo-footer {
+    width: 150px;
+}
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+.redes-sociais span{
+    margin: 10px;
+}
+.copyriht {
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px 150px 0px;
+}
+.copyriht a {
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+}
